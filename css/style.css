@@ -269,7 +269,6 @@ a {
     background-color: #00b770;
     border-radius: 50%;
     vertical-align: top;
-    cursor: pointer;
 }
 .feedback {
     background-color: #efefef;
@@ -341,6 +340,18 @@ a {
 }
 .main-footer {
     background-color: #1f2022;
+    color: #ffffff;
+}
+.footer-links {
+  color: #ffcc00;
+}
+.footer-links:hover,
+.footer-links:focus {
+  text-decoration: underline;
+}
+.footer-links:active {
+  opacity: 0.3;
+  text-decoration: none;
 }
 .footer-wrapper {
     display: flex;
@@ -387,29 +398,40 @@ a {
 .social-vk {
   background-image: url("../img/vk-logo.png");
   background-repeat: no-repeat;
-  width: 36px;
-  height: 24px;
   padding-right: 20px;
 }
 .social-vk:hover,
 .social-vk:focus {
   background-image: url("../img/vk-logo-hover.png")
 }
+.social-vk:active {
+  background-image: url("../img/vk-logo-active.png");
+}
 .social-fb {
   background-image: url("../img/fb-logo.png");
   background-repeat: no-repeat;
-  width: 36px;
-  height: 24px;
   padding-right: 10px;
+}
+.social-fb:hover,
+.social-fb:focus {
+  background-image: url("../img/fb-logo-hover.png");
+}
+.social-fb:active {
+  background-image: url("../img/fb-logo-active.png");
 }
 .social-tw {
   background-image: url("../img/twitter-logo.png");
   background-repeat: no-repeat;
-  width: 36px;
-  height: 24px;
+}
+.social-tw:hover,
+.social-tw:focus {
+  background-image: url("../img/twitter-logo-hover.png");
+}
+.social-tw:active {
+  background-image: url("../img/twitter-logo-active.png");
 }
 .social {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: block;
 }
